@@ -152,5 +152,5 @@ kiekis =3
 
  pirmas = 5
  antras = 4
- rez = (pirmas + antras)
- print = (rez)
+ x = (pirmas + antras)
+ print = ()
