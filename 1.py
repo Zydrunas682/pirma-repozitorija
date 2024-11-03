@@ -126,23 +126,11 @@ print(kiekis*kaina)
 print(type(kiekis))
 print(type(kaina))
 
-pavadinimas = (type('gera imone')
+pavadinimas = (type('gera imone'))
 
 pavadinimas = (str(gera imone))              
 
 print = ('pavadininmas')
-
-s=2kaicius 1 =  2
-skaicius 2 =  3
-print = (skaicius 1 + skaicius 2)###
-
-Print = 8*(2+3
-          
-2 +2
-
-print  = (2+2)
-
-print
 
 
 skaicius =2
@@ -154,3 +142,26 @@ kiekis =3
  antras = 4
  x = (pirmas + antras)
  print = ()
+
+ 8 + 2
+ print =
+
+ sarasas.append("Šarūnas")
+print(sarasas) 
+
+
+sarasas = [
+    "Asta",  
+    "Tomas",
+    
+ sarasas. insert(0,'Migle'
+
+
+
+
+ tekstas = 'laba diena,mano vardas PETRAS'
+ X = tekstas.swapcase()
+ print = (x)  
+
+ print = 'hello'
+ print = 'Hello'

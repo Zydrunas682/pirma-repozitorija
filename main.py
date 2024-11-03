@@ -126,31 +126,35 @@ print(kiekis*kaina)
 print(type(kiekis))
 print(type(kaina))
 
-pavadinimas = (type('gera imone')
+pavadinimas = type('gera imone')
+               
+pavadinimas = str("gera imone")              
 
-pavadinimas = (str(gera imone))              
+# print = 'pavadininmas'
 
-print = ('pavadininmas')
+# s = 2kaicius 1 =  2
+# skaicius 2 =  3
+skaicius1 = 2
+skaicius2 = 5
 
-s=2kaicius 1 =  2
-skaicius 2 =  3
-print = (skaicius 1 + skaicius 2)###
+print(skaicius1 + skaicius2)
 
-Print = 8*(2+3
+print(8*(2+3))
           
-2 +2
 
-print  = (2+2)
+# print  = (2+2)
 
-print
-
-
-skaicius =2
-kiekis =3
- print = (skaicius+kiekis)#
+# print
 
 
- pirmas = 5
- antras = 4
- rez = (pirmas + antras)
- print = (rez)
+# skaicius =2
+# kiekis =3
+#  print = (skaicius+kiekis)#
+
+
+#  pirmas = 5
+#  antras = 4
+#  rez = (pirmas + antras)
+#  print = (rez)
+
+                                            

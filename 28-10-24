@@ -1,0 +1,172 @@
+import random
+
+# Generuojame 300 atsitiktinių skaičių
+skaičiai = [random.randint(0, 300) for _ in range(300)]
+
+# Skaičiuojame, kiek skaičių yra didesnių už 150
+dideli_skaičiai_count = sum(1 for sk in skaičiai if sk > 150)
+
+# Atspausdiname skaičius, didesnius nei 275, skliausteliuose
+rezultatas = ' '.join([f"[{sk}]" if sk > 275 else str(sk) for sk in skaičiai])
+
+# Išvedame rezultatus
+print(rezultatas)
+print(f"Skaičių, didesnių už 150: {dideli_skaičiai_count}")
+
+
+
+
+
+# Prašome vartotojo įvesti simbolį ir kvadrato kraštinę
+simbolis = input("Įveskite simbolį: ")
+kraštinė = int(input("Įveskite kvadrato kraštinę: "))
+
+# Nupiešiame tuščiavidurį kvadratą
+for i in range(kraštinė):
+    if i == 0 or i == kraštinė - 1:
+        # Pirmas ir paskutinis eilis: viskas užpildyta simboliu
+        print(simbolis * kraštinė)
+    else:
+        # Viduriniai eilutės: simbolis, tarpas, simbolis
+        print(simbolis + ' ' * (kraštinė - 2) + simbolis)
+
+
+
+
+# Prašome vartotojo įvesti simbolį ir kvadrato kraštinę
+simbolis = input("Įveskite simbolį: ")
+kraštinė = int(input("Įveskite kvadrato kraštinę: "))
+for i in range(kraštinė):
+    print(simbolis * kraštinė)  # Šis kodas atspausdina simbolį 'kraštinė' kartų
+
+
+# Prašome vartotojo įvesti simbolį ir kvadrato kraštinę
+simbolis = input("Įveskite simbolį: ")
+kraštinė = int[input("Įveskite kvadrato kraštinę: ")]
+
+# Nupiešiame kvadratą
+for i in range(kraštinė):
+    print(simbolis * kraštinė)
+
+
+2+2
+
+# Prašome vartotojo įvesti simbolį ir kvadrato kraštinę
+simbolis = input("Įveskite simbolį: ")
+kraštinė = int(input("Įveskite kvadrato kraštinę: "))
+
+# Nupiešiame kvadratą su įstrižainėmis
+for i in range(kraštinė):
+    for j in range(kraštinė):
+        if i == j or j == kraštinė - 1 - i:
+            print(simbolis, end=' ')
+        else:
+            print('*', end=' ')
+    print()  # Eilutės 
+    
+
+
+
+ # Prašome vartotojo įvesti simbolį ir kvadrato kraštinę
+simbolis = input("Įveskite simbolį: ")
+kraštinė = int(input("Įveskite kvadrato kraštinę: "))
+
+# Nupiešiame kvadratą su įstrižainėmis
+for i in range(kraštinė):
+    for j in range(kraštinė):
+        if i == j or j == kraštinė - 1 - i:
+            print(simbolis, end=' ')
+        else:
+            print('*', end=' ')
+    print()  # Eilutės pabaiga
+
+
+
+
+    import random
+
+# Scenarijus 1: Stabdyti iškritus herbui
+print("Scenarijus 1: Stabdyti iškritus herbui")
+while True:
+    metimas = random.randint(0, 1)  # 0 - herbas, 1 - skaičius
+    if metimas == 0:
+        print("H")  # Iškrito herbas
+        break
+    else:
+        print("S")  # Iškrito skaičius4
+print()  # Tuščia eilutė tarp scenarijų
+
+# Scenarijus 2: Stabdyti tris kartus iškritus herbui
+print("Scenarijus 2: Stabdyti tris kartus iškritus herbui")
+herbų_count = 0
+while herbų_count < 3:
+    metimas = random.randint(0, 1)
+    if metimas == 0:
+        print("H")  # Iškrito herbas
+        herbų_count += 1
+    else:
+        print("S")  # Iškrito skaičius
+
+print()  # Tuščia eilutė tarp scenarijų
+
+# Scenarijus 3: Stabdyti tris kartus iš eilės iškritus herbui
+print("Scenarijus 3: Stabdyti tris kartus iš eilės iškritus herbui")
+herbų_pakartojimas = 0
+while True:
+    metimas = random.randint(0, 1)
+    if metimas == 0:
+        print("H")  # Iškrito herbas
+        herbų_pakartojimas += 1
+    else:
+        print("S")  # Iškrito skaičius
+        herbų_pakartojimas = 0  # Jei iškrenta skaičius, skaičius atstatomas
+
+    # Stabdyti, kai tris kartus iš eilės iškrenta herbas
+    if herbų_pakartojimas == 3:
+        break
+
+
+
+
+import random
+
+# Scenarijus 1: Stabdyti iškritus herbui
+print("Scenarijus 1: Stabdyti iškritus herbui")
+while True:
+    metimas = random.randint(0, 1)  # 0 - herbas, 1 - skaičius
+    if metimas == 0:
+        print("H")  # Iškrito herbas
+        break
+    else:
+        print("S")  # Iškrito skaičius
+
+print()  # Tuščia eilutė tarp scenarijų
+
+# Scenarijus 2: Stabdyti tris kartus iškritus herbui
+print("Scenarijus 2: Stabdyti tris kartus iškritus herbui")
+herbų_count = 0
+while herbų_count < 3:
+    metimas = random.randint(0, 1)
+    if metimas == 0:
+        print("H")  # Iškrito herbas
+        herbų_count += 1
+    else:
+        print("S")  # Iškrito skaičius
+
+print()  # Tuščia eilutė tarp scenarijų
+
+# Scenarijus 3: Stabdyti tris kartus iš eilės iškritus herbui
+print("Scenarijus 3: Stabdyti tris kartus iš eilės iškritus herbui")
+herbų_pakartojimas = 0
+while True:
+    metimas = random.randint(0, 1)
+    if metimas == 0:
+        print("H")  # Iškrito herbas
+        herbų_pakartojimas += 1
+    else:
+        print("S")  # Iškrito skaičius
+        herbų_pakartojimas = 0  # Jei iškrenta skaičius, skaičius atstatomas
+
+    # Stabdyti, kai tris kartus iš eilės iškrenta herbas
+    if herbų_pakartojimas == 3:
+        break

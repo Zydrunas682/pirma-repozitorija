@@ -7,16 +7,25 @@ print(zodziai[1])
 # sarasas = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
 
 input("Iveskite skaiciu")
-# va taip va
+tekstas = 'Labas pasaulis
+zodziai = tekstas.split()
 
-print (3+30)
+tekstas = 'kokia grazi diena
+print(sarasas.count(grazi))
 
-labasPasauli=10#
+thislist = ["apple", "banana", "cherry",' du']
+print(len(thislist))
 
-e=13
-print=()
+tekstas = 'phytonas  smagu'
+print = tekstas.capitalize()
+print = 'phytonas  smagu'
+ 
+ tekstas =(Zydrunas)
+Print = (hELLO, + X)
 
-kiekis=10
-kaina=2
+tekstas = 'kokia grazi diena
+print(sarasas.count(grazi))
 
-print(kiekis*kaina)
+ 
+
+
