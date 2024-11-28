@@ -157,4 +157,11 @@ print(8*(2+3))
 #  rez = (pirmas + antras)
 #  print = (rez)
 
-                                            
+
+
+pavadinimas = "utenos alus"
+print=(type(pavadinimas))  
+
+
+pavadinimas = 'UAB"utenos alus"'
+print=(type(pavadinimas))  

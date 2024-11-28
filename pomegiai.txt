@@ -1,0 +1,34 @@
+laba vakara
+kas daros?
+Vardas: petras,rasa
+  Galutiniai balai uþ technikà: 16
+  Galutiniai balai uþ artistiðkumà: 21
+  Bendras balas: 37
+---
+Vardas: Rita Jurgis
+  Galutiniai balai uþ technikà: 19
+  Galutiniai balai uþ artistiðkumà: 21
+  Bendras balas: 40
+---
+Vardas: Rasa Linas
+  Galutiniai balai uþ technikà: 30
+  Galutiniai balai uþ artistiðkumà: 24
+  Bendras balas: 54
+---
+kas  laimejo
+kartojam
+Vardas: Petras Rasa
+  Galutiniai balai uþ technikà: 16
+  Galutiniai balai uþ artistiðkumà: 21
+  Bendras balas: 37
+---
+Vardas: 
+  Galutiniai balai uþ technikà: 19
+  Galutiniai balai uþ artistiðkumà: 21
+  Bendras balas: 40
+---
+Vardas: Rasa Linas
+  Galutiniai balai uþ technikà: 30
+  Galutiniai balai uþ artistiðkumà: 32
+  Bendras balas: 62
+---

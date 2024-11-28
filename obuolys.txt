@@ -1,0 +1,4 @@
+simas;simaitis;23
+pertikis;abdula;78
+daina;dainora;30
+klaudijus;pus;34
